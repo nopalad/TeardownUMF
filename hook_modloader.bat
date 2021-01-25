@@ -2,7 +2,7 @@
 
 find /c "InputPressed" data\ui\menu.lua > nul
 if %errorlevel% equ 0 goto found
-echo ERROR: This version of UMF is meant for Teardown version 0.5.x
+echo ERROR: This version of UMF is meant for Teardown version 0.5.2
 echo Make sure your game is running the right version and double check the installation path.
 pause
 exit 0
